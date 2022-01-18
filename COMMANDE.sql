@@ -1,0 +1,5 @@
+select distinct DATE DE LA SEANCE
+from SEANCE S , FILM F , ROLE R
+where R.NUMERO FILM = F .NUMERO FILM
+and S .NUMERO FILM = F .NUMERO FILM
+and R.NUMERO ACTEUR = 1 ;
